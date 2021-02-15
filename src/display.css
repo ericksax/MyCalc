@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.display {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+    font-size: 2.0rem;
+    
+    color: white;
+    background: rgba(0, 0, 0, 0.126);
+
+    grid-column: span 4;
+}

@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: silver;
+    color: black;
+}
+
+.btn.double {
+    grid-column: span 2;
+}
+
+.btn.triple {
+    grid-column: span 3;
+}
