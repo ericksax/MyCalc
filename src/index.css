@@ -5,10 +5,13 @@
 }
 
 body {
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.4rem;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+
+  background: rgb(135,37,139);
+  background: linear-gradient(90deg, rgba(135,37,139,1) 28%, rgba(0,149,255,1) 100%);
 }
